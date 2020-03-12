@@ -1,9 +1,6 @@
 import React from 'react';
-// import img1 from './1.jpg';
-// import img2 from './2.jpeg';
 import logo from './logo.svg';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-// import { Carousel } from 'react-responsive-carousel';
 import './App.css';
 import { Tabs, Tab, Accordion, Card, Button, Carousel, Form } from 'react-bootstrap';
 
@@ -183,7 +180,7 @@ function App() {
         </div>
       </div>
       <div style={styles.footerWrapper}>
-        Footer Goes Here
+      © 2020. All rights reserved | Design by MRG 
       </div>
     </div>
   );
@@ -239,7 +236,7 @@ const styles = {
     height: "100px",
     lineHeight: "100px",
     textAlign: "center",
-    backgroundImage: "linear-gradient(red, green, blue)"
+    backgroundImage: "linear-gradient(red, #fff, blue)"
   },
   sliderImg: {
     height: "300px"
@@ -258,12 +255,14 @@ const styles = {
   },
   leftHeader: {
     float: "left",
-    width: "500px"
+    width: "500px",
   },
   rightHeader: {
     float: "right",
     height: "100%",
-    paddingRight: "20px"
+    paddingRight: "20px",
+    color: "#fff",
+    padding: "12px"
   },
   topTestimonial: {
     margin: "auto",
